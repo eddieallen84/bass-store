@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: arial;
+}
+
+.navbar{
+    background-color: rgb(44,44,44);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 10px 0px 10px #2c2c2c
+    
+}
+.logo-title > h1{
+    color: rgb(187, 0, 0)
+}
+.navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
