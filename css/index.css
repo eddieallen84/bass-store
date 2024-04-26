@@ -42,6 +42,11 @@ nav ul {
 .nav-icons img:first-child {
   margin-right: 1rem;
 }
+.nav-icons img:first-child:hover{
+  transform: translateY(-5px);
+  transition: all 0.2s;
+  
+}
 nav ul li {
   color: white;
   margin-right: 1.5rem;
@@ -51,4 +56,5 @@ nav ul li:hover {
   transform: translateY(-5px);
   transition: all 0.2s;
   font-weight: bold;
+
 }
