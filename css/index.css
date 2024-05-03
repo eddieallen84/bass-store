@@ -104,3 +104,21 @@ header{
 .header-bottom-side-right img {
   width: 100%;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-widht: 100vw){
+
+.logo{
+  font-size: 1.2rem;
+}
+.header-bottom-side{
+  flex-direction: column;
+  text-align: center;
+  padding-top: 4rem;
+}
+}
+
+/* HEADER */
+
