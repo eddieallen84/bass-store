@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
         <div class="logo">
             <h1>Bass<span>Store</span></h1>
             <nav>
@@ -49,7 +50,15 @@
 
         </div>
     </header>
+<script>
 
+    const navbar = document.querySelector(".navbar");
+    const menuButton = document.querySelector(".menu-button");
+
+    menuButton.addEventListener("click", () => {
+        navbar.classList.toggle(".show-menu");
+    });
+</script>
 
 </body>
 
