@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   font-family: arial;
 }
@@ -108,7 +109,7 @@ header {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .logo {
     font-size: 1.2rem;
   }
@@ -143,3 +144,35 @@ header {
 }
 
 /* HEADER */
+
+/* Main Content */
+
+.gray-bg{
+  background-color: #2c2c2c;
+
+}
+.page-inner-content{
+  max-width: 800px;
+  margin: 0 auto;
+  
+  
+}
+.page-inner-content img{
+ max-height: 250px;
+
+ 
+}
+.cols{
+  display: grid;
+  padding: 3rem 1rem;
+  justify-items: center;
+  
+  
+}
+
+.cols-3{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  
+
+}
