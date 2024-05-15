@@ -173,20 +173,15 @@ main{
   
 }
 
-.cols-3{
-  grid-template-columns: repeat(3, 1fr);
+.cols-4{
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   
 
-}.cols-3 img{
+}.cols-4 img{
   max-width: 100%;
 }
 
-.cols-4{
-  grid-template-columns: repeat(4,1fr);
-  gap: 1rem;
-
-}
 .cols>*{
   cursor: pointer;
   transition: all 0.2s;
@@ -219,6 +214,10 @@ main{
 .product-name{
   font-weight: 600;
   margin-top: 0.4rem;
+}
+.rate{
+  color: #0084ff;
+  font-size: 1.3rem;
 }
 
 
