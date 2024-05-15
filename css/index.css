@@ -176,9 +176,16 @@ main{
 .cols-4{
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  
 
-}.cols-4 img{
+}
+.cols-4 img{
+  max-width: 100%;
+}
+.cols-3{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.cols-3 img{
   max-width: 100%;
 }
 
@@ -218,6 +225,12 @@ main{
 .rate{
   color: #0084ff;
   font-size: 1.3rem;
+}
+
+.product-price{
+  font-weight: 600;
+
+
 }
 
 
