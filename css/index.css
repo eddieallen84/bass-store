@@ -97,6 +97,8 @@ header {
 .header-bottom-side-left {
   height: 100%;
   flex-basis: 50%;
+  margin-right: 30px;
+  margin-left: 30px;
   
 }
 .header-bottom-side-right {
@@ -161,7 +163,7 @@ main {
 }
 
 .page-inner-content1 {
-  max-width: 75vw;
+  max-width: 77vw;
   margin: 0 auto;
 }
 
