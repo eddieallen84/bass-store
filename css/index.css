@@ -155,16 +155,17 @@ main{
 
 }
 .page-inner-content{
+  max-width: 800px;
+  margin: 0 auto;
+
+   
+}
+
+.page-inner-content1{
   max-width: 75vw;
   margin: 0 auto;
-  
-  
 }
-.page-inner-content img{
- max-height: 250px;
 
- 
-}
 .cols{
   display: grid;
   padding: 3rem 1rem;
@@ -216,12 +217,14 @@ main{
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
+  max-width: fit-content;
   
 }
 
 .product-name{
   font-weight: 600;
   margin-top: 0.4rem;
+  
 }
 .rate{
   color: #0084ff;
