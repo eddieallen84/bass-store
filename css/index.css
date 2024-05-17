@@ -169,8 +169,7 @@ main{
   display: grid;
   padding: 3rem 1rem;
   justify-items: center;
-  
-  
+   
 }
 
 .cols-4{
@@ -183,7 +182,9 @@ main{
 }
 .cols-3{
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
   gap: 1rem;
+
 }
 .cols-3 img{
   max-width: 100%;
@@ -227,9 +228,8 @@ main{
   font-size: 1.3rem;
 }
 
-.product-price{
+.product-price span{
   font-weight: 600;
-
 
 }
 
