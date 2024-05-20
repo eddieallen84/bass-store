@@ -430,7 +430,7 @@ main {
 }
 .download-options > div {
   display: block;
-  max-width: 33vw;
+  
 }
 .download-options > div img {
   max-width: 150px;
@@ -440,14 +440,14 @@ main {
 }
 .logo-footer {
   text-align: center;
-  max-width: 33vw;
+  
 }
 .logo-footer h1 {
   margin-bottom: 10px;
 }
 
 .links-footer {
-  max-width: 33vw;
+  
 }
 
 .links-footer h3 {
