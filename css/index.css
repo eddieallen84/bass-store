@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 /* CARROSSEL */
 
@@ -43,7 +42,7 @@
   .prev,
   .next {
     max-width: 50px;
-    opacity: 35%;
+    opacity: 30%;
   }
 }
 .btn {
