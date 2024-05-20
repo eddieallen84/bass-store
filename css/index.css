@@ -420,6 +420,7 @@ main {
   gap: 2rem;
   font-size: 0.8rem;
   max-width: 80vw;
+  
 }
 
 .download-options > * {
@@ -430,7 +431,7 @@ main {
   color: #fff;
 }
 .download-options > div {
-  display: block;
+  display: flex;
 }
 .download-options > div img {
   max-width: 150px;
