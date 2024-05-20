@@ -273,6 +273,7 @@ main {
 }
 .cols-3 img {
   max-width: 100%;
+  filter: drop-shadow(0 0 0.2rem black);
 }
 .cols > * {
   cursor: pointer;
@@ -316,12 +317,15 @@ main {
 
 .exclusive-container {
   color: white;
+  
   flex-direction: row-reverse;
   padding: 2.5rem 1rem;
 }
 .exclusive-container img {
-  max-width: 75%;
-}
+  max-height: 500px;
+  filter: drop-shadow(0 0 0.8rem black);
+  
+  }
 
 /* Media Query */
 @media screen and (max-width: 800px) {
@@ -346,9 +350,12 @@ main {
   }
   .exclusive-container {
     flex-direction: column-reverse;
+    
   }
   .exclusive-container img {
     margin-bottom: 4rem;
+    
+    
   }
 }
 
