@@ -40,63 +40,57 @@
       }
     }
   }
-  .prev, .next{
+  .prev,
+  .next {
     max-width: 50px;
     opacity: 35%;
+  }
+}
+.btn {
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 
+  &:active,
+  &:focus {
+    transform: translateY(-50%) scale(1.1);
   }
+
+  &:hover {
+    transform: translateY(-50%) scale(1.1);
   }
-  .btn {
-    padding: 0.5rem 0.8rem;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    outline: none;
-    border: none;
+}
+
+.prev {
+  left: 1%;
+}
+
+.next {
+  right: 1%;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  .dot {
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-    
-    
-    
-    &:active,
-    &:focus {
-      transform: translateY(-50%) scale(1.1);
-      
-    }
+    height: 10px;
+    width: 10px;
+    background-color: #242421;
+    transition: background-color 0.2s ease;
+    border-radius: 50%;
 
+    &.active,
     &:hover {
-      transform: translateY(-50%) scale(1.1);
-    }
-  }
-
-  .prev {
-    
-    left: 1%;
-  }
-
-  .next {
-    right: 1%;
-  }
-
-  .dots {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    
-
-    .dot {
-      cursor: pointer;
-      height: 10px;
-      width: 10px;
-      background-color: #242421;
-      transition: background-color 0.2s ease;
-      border-radius: 50%;
-
-      &.active,
-      &:hover {
-        background-color: #ffffe6;
-      }
+      background-color: #ffffe6;
     }
   }
 }
@@ -431,7 +425,6 @@ main {
 }
 .download-options > div {
   display: block;
-  
 }
 .download-options > div img {
   max-width: 150px;
@@ -441,14 +434,12 @@ main {
 }
 .logo-footer {
   text-align: center;
-  
 }
 .logo-footer h1 {
   margin-bottom: 10px;
 }
 
 .links-footer {
-  
 }
 
 .links-footer h3 {
