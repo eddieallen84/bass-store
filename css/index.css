@@ -41,7 +41,6 @@
   }
 
   .btn {
-    font-family: 'Roboto';
     padding: 0.5rem 1rem;
     position: absolute;
     transform: translateY(-50%);
@@ -49,13 +48,11 @@
     outline: none;
     border: none;
     cursor: pointer;
-    color: black;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 1rem;
     background-color: #ffffe6;
     opacity: 13%;
     transition: transform 0.2s ease-in-out;
-    border-radius: 50%;
+    
     
 
     
